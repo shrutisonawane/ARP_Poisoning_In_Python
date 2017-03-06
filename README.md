@@ -22,7 +22,7 @@ The virtual machine which is chosen to be the "man-in-the-middle" needs to have 
 * The program *arper.py* needs to be run on the "man-in-the-middle" machine with the format: 
 
   ```bash
-  python arper.py <IP address of victim1> <IP address of victim2>
+  python arper.py <IPv4 address of victim1> <IPv4 address of victim2>
   ```
   **Example**
   ```bash
