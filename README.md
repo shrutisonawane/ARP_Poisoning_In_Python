@@ -21,4 +21,10 @@ The virtual machine which is chosen to be the "man-in-the-middle" needs to have 
 * Command used to check local ARP cache table on each virtual machine: *arp -a*
 * The program *arper.py* needs to be run on the "man-in-the-middle" machine with the format: 
 
-  *python arper.py IP address of victim1 IP adress of victim2*
+  ```bash
+  python arper.py <IP address of victim1> <IP address of victim2>
+  ```
+  **Example**
+  ```bash
+  python arper.py 192.168.0.1 192.168.0.2
+  ```
